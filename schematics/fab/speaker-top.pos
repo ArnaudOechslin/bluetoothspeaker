@@ -1,0 +1,22 @@
+### Module positions - created on 12/22/21 14:44:27 ###
+### Printed by Pcbnew version kicad (5.1.12)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                              PosX       PosY       Rot  Side
+C1        22uF               C_1206_3216Metric                                156.7180   -79.2480  180.0000  top
+C2        10uF               C_1206_3216Metric                                161.4424   -79.2734    0.0000  top
+C3        10uF               C_1206_3216Metric                                125.4760   -88.9000  180.0000  top
+C4        100nF              C_1206_3216Metric                                130.1496   -88.9000    0.0000  top
+C5        0.1uF              C_1206_3216Metric                                132.5880   -75.4380  270.0000  top
+C6        1uF                C_1206_3216Metric                                132.5880   -70.3580  270.0000  top
+D1        WS2812B            LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               167.1828   -74.4474   90.0000  top
+IC1       MCP73833-AMI_UN    SOP50P490X110-10N                                141.9860   -85.5980    0.0000  top
+IC2       AZ1117CR-3.3TRG1   AZ1117CR33TRG1                                   159.0040   -73.1520    0.0000  top
+IC3       MAX98357AGTE_V+T   QFN50P300X300X80-17N                             127.7620   -85.0900    0.0000  top
+J1        Conn_01x02_Male    JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical   164.9984   -85.6234  270.0000  top
+J3        USB_B_Micro        USB_Micro-B_GCT_USB3076-30-A                     150.8760   -88.6460    0.0000  top
+R1        1K                 R_0603_1608Metric                                144.0180   -89.4080    0.0000  top
+R2        10K                R_0603_1608Metric                                140.3990   -89.4080    0.0000  top
+R3        10k                R_0603_1608Metric                                132.5880   -67.0560    0.0000  top
+U1        ESP32-C3-WROOM-02  ESP32-C3-WROOM-02                                144.4250   -71.2750    0.0000  top
+## End
