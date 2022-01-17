@@ -1,0 +1,182 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 3000 3550
+Connection ~ 3600 2650
+Connection ~ 3900 4350
+Connection ~ 4200 4350
+Connection ~ 4600 4350
+Connection ~ 4600 4650
+Wire Wire Line
+	3000 3450 3000 3550
+Wire Wire Line
+	3000 3550 2850 3550
+Wire Wire Line
+	3000 3650 3000 4500
+Wire Wire Line
+	3000 4500 3900 4500
+Wire Wire Line
+	3600 2350 3600 2650
+Wire Wire Line
+	3600 2650 3050 2650
+Wire Wire Line
+	3800 2350 3600 2350
+Wire Wire Line
+	3800 2650 3800 2350
+Wire Wire Line
+	3800 4350 3900 4350
+Wire Wire Line
+	3900 4350 4200 4350
+Wire Wire Line
+	3900 4500 3900 4350
+Wire Wire Line
+	4200 4350 4600 4350
+Wire Wire Line
+	4200 4650 4600 4650
+Wire Wire Line
+	4600 3450 4750 3450
+Wire Wire Line
+	4600 3550 5800 3550
+Wire Wire Line
+	4600 3650 5800 3650
+Wire Wire Line
+	4750 3350 4950 3350
+Wire Wire Line
+	4750 3450 4750 3350
+Text Label 5600 3550 0    50   ~ 0
+SPK-
+Text Label 5600 3650 0    50   ~ 0
+SPK+
+Text HLabel 3000 3350 0    50   Input ~ 0
+DATA
+Text HLabel 3700 2650 1    50   Input ~ 0
+BCLK
+Text HLabel 3900 2650 1    50   Input ~ 0
+LRCLK
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 61C15C4F
+P 4600 4350
+F 0 "#PWR0109" H 4600 4200 50  0001 C CNN
+F 1 "+3.3V" H 4615 4523 50  0000 C CNN
+F 2 "" H 4600 4350 50  0001 C CNN
+F 3 "" H 4600 4350 50  0001 C CNN
+	1    4600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 61C170FF
+P 2850 3550
+F 0 "#PWR0110" H 2850 3300 50  0001 C CNN
+F 1 "GND" H 2855 3377 50  0000 C CNN
+F 2 "" H 2850 3550 50  0001 C CNN
+F 3 "" H 2850 3550 50  0001 C CNN
+	1    2850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 61C18682
+P 3050 2650
+F 0 "#PWR0111" H 3050 2400 50  0001 C CNN
+F 1 "GND" H 3055 2477 50  0000 C CNN
+F 2 "" H 3050 2650 50  0001 C CNN
+F 3 "" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 61C20056
+P 4600 4650
+F 0 "#PWR0113" H 4600 4400 50  0001 C CNN
+F 1 "GND" H 4605 4477 50  0000 C CNN
+F 2 "" H 4600 4650 50  0001 C CNN
+F 3 "" H 4600 4650 50  0001 C CNN
+	1    4600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 61C1A269
+P 4950 3350
+F 0 "#PWR0112" H 4950 3100 50  0001 C CNN
+F 1 "GND" H 4955 3177 50  0000 C CNN
+F 2 "" H 4950 3350 50  0001 C CNN
+F 3 "" H 4950 3350 50  0001 C CNN
+	1    4950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61C425B3
+P 6000 3550
+AR Path="/61BE54EE/61C425B3" Ref="J?"  Part="1" 
+AR Path="/61BE53FF/61C425B3" Ref="J6"  Part="1" 
+F 0 "J6" H 6080 3542 50  0000 L CNN
+F 1 "Conn_01x02" H 6080 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 3550 50  0001 C CNN
+F 3 "~" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 61C1B4B8
+P 4200 4500
+F 0 "C3" H 4315 4546 50  0000 L CNN
+F 1 "10uF" H 4315 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4238 4350 50  0001 C CNN
+F 3 "~" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 61C1DC2F
+P 4600 4500
+F 0 "C4" H 4715 4546 50  0000 L CNN
+F 1 "100nF" H 4715 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4638 4350 50  0001 C CNN
+F 3 "~" H 4600 4500 50  0001 C CNN
+	1    4600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:MAX98357AGTE_V+T IC3
+U 1 1 61C121C8
+P 3000 3350
+F 0 "IC3" H 4644 3246 50  0000 L CNN
+F 1 "MAX98357AGTE_V+T" H 4644 3155 50  0000 L CNN
+F 2 "QFN50P300X300X80-17N" H 4450 3850 50  0001 L CNN
+F 3 "https://pdfserv.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf" H 4450 3750 50  0001 L CNN
+F 4 "Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance" H 4450 3650 50  0001 L CNN "Description"
+F 5 "0.8" H 4450 3550 50  0001 L CNN "Height"
+F 6 "Maxim Integrated" H 4450 3450 50  0001 L CNN "Manufacturer_Name"
+F 7 "MAX98357AGTE/V+T" H 4450 3350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4450 3250 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 4450 3150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4450 3050 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4450 2950 50  0001 L CNN "Arrow Price/Stock"
+	1    3000 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

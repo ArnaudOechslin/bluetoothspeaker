@@ -1,0 +1,109 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Wire Wire Line
+	2700 3350 3000 3350
+Wire Wire Line
+	2700 4200 2700 3350
+Wire Wire Line
+	2850 3450 3000 3450
+Wire Wire Line
+	2850 4400 2850 3450
+Wire Wire Line
+	2950 3550 3000 3550
+Wire Wire Line
+	2950 4300 2950 3550
+Wire Wire Line
+	4350 2550 5300 2550
+Wire Wire Line
+	4350 3400 6700 3400
+Wire Wire Line
+	5250 2300 5250 2450
+Wire Wire Line
+	5250 2300 5400 2300
+Wire Wire Line
+	5250 2450 4350 2450
+Wire Wire Line
+	5300 2400 5400 2400
+Wire Wire Line
+	5300 2550 5300 2400
+Wire Wire Line
+	5600 4200 2700 4200
+Wire Wire Line
+	5600 4300 2950 4300
+Wire Wire Line
+	5600 4400 2850 4400
+Wire Wire Line
+	6550 1850 6550 3300
+Wire Wire Line
+	6550 3300 4350 3300
+Wire Wire Line
+	6700 1950 8100 1950
+Wire Wire Line
+	6700 3400 6700 1950
+Wire Wire Line
+	6750 2050 6750 3500
+Wire Wire Line
+	6750 3500 4350 3500
+Wire Wire Line
+	8100 1850 6550 1850
+Wire Wire Line
+	8100 2050 6750 2050
+$Sheet
+S 5600 3650 1400 1600
+U 61BE53FF
+F0 "audio" 50
+F1 "audio.sch" 50
+F2 "DATA" I L 5600 4200 50 
+F3 "BCLK" I L 5600 4300 50 
+F4 "LRCLK" I L 5600 4400 50 
+$EndSheet
+$Sheet
+S 3000 2050 1350 1550
+U 61BE54EE
+F0 "comm" 50
+F1 "comm.sch" 50
+F2 "D+" I R 4350 2450 50 
+F3 "D-" I R 4350 2550 50 
+F4 "STAT1" I R 4350 3300 50 
+F5 "STAT2" I R 4350 3400 50 
+F6 "PG" I R 4350 3500 50 
+F7 "BCLK" I L 3000 3550 50 
+F8 "LRCLK" I L 3000 3450 50 
+F9 "DATA" I L 3000 3350 50 
+$EndSheet
+$Sheet
+S 8100 1550 1300 1650
+U 61BE538C
+F0 "power" 50
+F1 "power.sch" 50
+F2 "STAT1" I L 8100 1850 50 
+F3 "STAT2" I L 8100 1950 50 
+F4 "PG" I L 8100 2050 50 
+$EndSheet
+$Sheet
+S 5400 2000 850  1100
+U 61BEB58C
+F0 "usb" 50
+F1 "usb.sch" 50
+F2 "D+" I L 5400 2300 50 
+F3 "D-" I L 5400 2400 50 
+$EndSheet
+$EndSCHEMATC
